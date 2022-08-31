@@ -287,7 +287,7 @@
         "columns": [
           {
             "name": "CountryCode",
-            "comment": "",
+            "comment": "국가코드",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -658,7 +658,7 @@
           "active": false,
           "left": 822.9297,
           "top": 391.9092,
-          "zIndex": 45,
+          "zIndex": 53,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
