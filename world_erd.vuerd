@@ -113,7 +113,7 @@
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "892abdac-dbfe-452b-8436-ff775f255c28"
+            "id": "3ad65cd9-88a1-44c2-aff4-b6890daae51f"
           },
           {
             "name": "District",
@@ -166,7 +166,7 @@
           "active": false,
           "left": 231.1997,
           "top": 428.6229,
-          "zIndex": 300,
+          "zIndex": 313,
           "widthName": 60,
           "widthComment": 60
         },
@@ -274,7 +274,7 @@
           "active": false,
           "left": 244.3548,
           "top": 718.0455,
-          "zIndex": 308,
+          "zIndex": 311,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -609,7 +609,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 794.487,
           "top": 476.3551,
           "zIndex": 309,
@@ -629,7 +629,7 @@
     "relationships": [
       {
         "identification": false,
-        "relationshipType": "ZeroOne",
+        "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "8596d5c4-1a71-4332-bf29-a2f64673c1d9",
@@ -643,7 +643,7 @@
         "end": {
           "tableId": "b96c6404-fc29-421d-b89e-e2c791dfd5f2",
           "columnIds": [
-            "892abdac-dbfe-452b-8436-ff775f255c28"
+            "3ad65cd9-88a1-44c2-aff4-b6890daae51f"
           ],
           "x": 429.317619921875,
           "y": 600.1229000000001,
@@ -651,7 +651,7 @@
         },
         "constraintName": "fk_countrylanguage_me_to_city_me",
         "visible": true,
-        "id": "6978b68a-4039-424d-87cf-ad55bd399fe7"
+        "id": "2d868da2-65de-46da-bb89-882dd4a79e5e"
       }
     ]
   }
