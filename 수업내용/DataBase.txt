@@ -29,3 +29,7 @@ IN : To specify multiple possible values for a column
 ex) SELECT * FROM Customers
     WHERE CUSTOMERID IN(SELECT CustomerID FROM Customers
 					WHERE Country = 'Canada');
+SELECT * FROM Customers
+WHERE Country = 'USA'
+ORDER BY City DESC, PostalCode, CustomerID;
+DESC = 내림차순 ASC = 올림차순 한글도 가능
