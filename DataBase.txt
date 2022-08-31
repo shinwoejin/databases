@@ -13,3 +13,6 @@ DBMS 종류
 RDB : Oracle, MySQL, MariaDB, PostgreSQL, Sqlite
 NoSQL : MongoDB 와 CouchBase, Cassandra 와 HBase
 In-memory DB : memcached, Redis(REmote Dlctionary System)
+
+RDB, NoSQL : file 에 저장
+In-memory DB : 메모리에 저장
