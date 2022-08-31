@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -330.4000000000004,
-    "scrollLeft": -192.00000000000003,
-    "zoomLevel": 0.9,
+    "scrollTop": -281.6,
+    "scrollLeft": -135.20000000000007,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -93,6 +93,29 @@
             "id": "e4ef0256-20f2-4c52-b1c0-9abccee4e9f5"
           },
           {
+            "name": "CountryCode",
+            "comment": "국가코드",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 79.94287109375,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "2fecd6f2-7a94-4ced-b341-d2509c65dea2"
+          },
+          {
             "name": "District",
             "comment": "",
             "dataType": "VARCHAR(200)",
@@ -137,6 +160,45 @@
               "widthDefault": 60
             },
             "id": "ffea9584-6091-4cd5-9bcc-39cf79b03bab"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 240.9774,
+          "top": 433.9564,
+          "zIndex": 51,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b96c6404-fc29-421d-b89e-e2c791dfd5f2"
+      },
+      {
+        "name": "countrylanguage_me",
+        "comment": "국가별 언어",
+        "columns": [
+          {
+            "name": "Language",
+            "comment": "언어명",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "9b0e0776-33bd-47e0-a238-e68b94797138"
           },
           {
             "name": "CountryCode",
@@ -159,69 +221,7 @@
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "2fecd6f2-7a94-4ced-b341-d2509c65dea2"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 240.9774,
-          "top": 433.9564,
-          "zIndex": 40,
-          "widthName": 60,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "b96c6404-fc29-421d-b89e-e2c791dfd5f2"
-      },
-      {
-        "name": "countrylanguage_me",
-        "comment": "국가별 언어",
-        "columns": [
-          {
-            "name": "CountryCode",
-            "comment": "국가코드",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 79.94287109375,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "6e450dea-4c0e-4aa8-8ab1-64a14767ae1f"
-          },
-          {
-            "name": "Language",
-            "comment": "언어명",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "9b0e0776-33bd-47e0-a238-e68b94797138"
+            "id": "b6eac92d-8932-4588-bff1-0ac7c37410b4"
           },
           {
             "name": "IsOfficial",
@@ -272,9 +272,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 338.5774,
-          "top": 677.1561,
-          "zIndex": 35,
+          "left": 220.3551,
+          "top": 658.4892,
+          "zIndex": 49,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -658,7 +658,7 @@
           "active": false,
           "left": 822.9297,
           "top": 391.9092,
-          "zIndex": 36,
+          "zIndex": 45,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -683,7 +683,7 @@
             "176f5c04-9fc5-4e14-8a9a-fe17316c6507"
           ],
           "x": 822.9297,
-          "y": 590.4092,
+          "y": 491.1592,
           "direction": "left"
         },
         "end": {
@@ -698,6 +698,32 @@
         "constraintName": "fk_country_me_to_city_me",
         "visible": true,
         "id": "2da3e523-8096-494a-894b-b7dd02f7b022"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "1df6402a-1eb4-46ee-8aee-b2c777a4b23a",
+          "columnIds": [
+            "176f5c04-9fc5-4e14-8a9a-fe17316c6507"
+          ],
+          "x": 822.9297,
+          "y": 689.6592,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "8596d5c4-1a71-4332-bf29-a2f64673c1d9",
+          "columnIds": [
+            "b6eac92d-8932-4588-bff1-0ac7c37410b4"
+          ],
+          "x": 616.59093984375,
+          "y": 733.9892,
+          "direction": "right"
+        },
+        "constraintName": "fk_country_me_to_countrylanguage_me",
+        "visible": true,
+        "id": "bcc789b8-242b-4883-86d0-bb057c165fcf"
       }
     ]
   }
