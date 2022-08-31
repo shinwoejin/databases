@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -362.40000000000026,
-    "scrollLeft": -203.19999999999987,
+    "scrollTop": -316.0000000000001,
+    "scrollLeft": -187.20000000000002,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -139,29 +139,6 @@
             "id": "ffea9584-6091-4cd5-9bcc-39cf79b03bab"
           },
           {
-            "name": "Code",
-            "comment": "",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "e2d418a5-9747-444a-ad85-b4406a7cf032"
-          },
-          {
             "name": "CountryCode",
             "comment": "",
             "dataType": "VARCHAR(200)",
@@ -189,7 +166,7 @@
           "active": false,
           "left": 240.9774,
           "top": 433.9564,
-          "zIndex": 404,
+          "zIndex": 408,
           "widthName": 60,
           "widthComment": 60
         },
@@ -270,29 +247,6 @@
             "id": "beebd976-34d9-4f31-9c26-77aa8599372c"
           },
           {
-            "name": "Code",
-            "comment": "",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "54468249-4958-410d-88d3-90a10325dc86"
-          },
-          {
             "name": "CountryCode",
             "comment": "",
             "dataType": "VARCHAR(200)",
@@ -320,7 +274,7 @@
           "active": false,
           "left": 225.6878,
           "top": 685.1561,
-          "zIndex": 405,
+          "zIndex": 407,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -729,7 +683,7 @@
             "176f5c04-9fc5-4e14-8a9a-fe17316c6507"
           ],
           "x": 884.2638,
-          "y": 557.8265,
+          "y": 756.3265,
           "direction": "left"
         },
         "end": {
@@ -738,7 +692,7 @@
             "277c28fd-114f-4849-976d-6c73f5a8dd3a"
           ],
           "x": 637.21323984375,
-          "y": 529.9564,
+          "y": 519.7064,
           "direction": "right"
         },
         "constraintName": "fk_country_me_to_city_me",
@@ -755,7 +709,7 @@
             "176f5c04-9fc5-4e14-8a9a-fe17316c6507"
           ],
           "x": 884.2638,
-          "y": 756.3265,
+          "y": 557.8265,
           "direction": "left"
         },
         "end": {
@@ -764,7 +718,7 @@
             "6e450dea-4c0e-4aa8-8ab1-64a14767ae1f"
           ],
           "x": 621.92363984375,
-          "y": 770.9061,
+          "y": 760.6561,
           "direction": "right"
         },
         "constraintName": "fk_country_me_to_countrylanguage_me",
