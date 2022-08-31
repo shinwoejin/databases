@@ -1,0 +1,15 @@
+Table 간 관계 측면
+SQL(Structured Query Lanaguage) : 관계형 기반, Table & Record
+NoSQL : Document-oriented. key-value 기반, Collection & Document
+중간 규모 앱에 SQL vs NoSQL 성능 유사.
+
+기술 적용 측면
+ORM(Object-Relational Mapper), ODM(Object-Document Mapper)
+사용 편의성 : DB 추상화 레이어, SQL 직관적 변경 가능.
+도메인  변환 시 약간의 성능 저하.
+호환성 : 개발과 제품 플랫폼 사용 가능 여부 확인.
+
+DBMS 종류
+RDB : Oracle, MySQL, MariaDB, PostgreSQL, Sqlite
+NoSQL : MongoDB 와 CouchBase, Cassandra 와 HBase
+In-memory DB : memcached, Redis(REmote Dlctionary System)
