@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -424.00000000000017,
-    "scrollLeft": -130.40000000000015,
+    "scrollTop": -393.60000000000014,
+    "scrollLeft": -201.60000000000005,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -272,9 +272,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1089.69,
-          "top": 436.267,
-          "zIndex": 303,
+          "left": 244.3548,
+          "top": 718.0455,
+          "zIndex": 308,
           "widthName": 125.30322265625,
           "widthComment": 71.5703125
         },
@@ -609,10 +609,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 670.043,
-          "top": 634.5769,
-          "zIndex": 302,
+          "active": true,
+          "left": 794.487,
+          "top": 476.3551,
+          "zIndex": 309,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -636,18 +636,18 @@
           "columnIds": [
             "ffa67aa6-97a9-47cf-884a-bf1d04f3bda2"
           ],
-          "x": 1089.69,
-          "y": 511.767,
-          "direction": "left"
+          "x": 442.472719921875,
+          "y": 718.0455,
+          "direction": "top"
         },
         "end": {
           "tableId": "b96c6404-fc29-421d-b89e-e2c791dfd5f2",
           "columnIds": [
             "892abdac-dbfe-452b-8436-ff775f255c28"
           ],
-          "x": 627.43553984375,
-          "y": 514.3729000000001,
-          "direction": "right"
+          "x": 429.317619921875,
+          "y": 600.1229000000001,
+          "direction": "bottom"
         },
         "constraintName": "fk_countrylanguage_me_to_city_me",
         "visible": true,
