@@ -14,10 +14,10 @@ CREATE TABLE country_me
   CountryCode    VARCHAR(200)    NOT NULL,
   Code           VARCHAR(200)    NULL    ,
   Name           VARCHAR(200)    NULL    ,
-  Continent      ENUM            NULL    ,
+  Continent      INT             NULL    ,
   Region         VARCHAR(200)    NULL    ,
   SurfaceArea    FLOAT(10,2)     NULL    ,
-  	IndepYear     	smallint(5, 0) NULL    ,
+  	IndepYear    INT             NULL    ,
   Population     INT             NULL    ,
   LifeExpectancy 	FLOAT(3, 1)    NULL    ,
   GNP            FLOAT(10,2)     NULL    ,
@@ -33,7 +33,7 @@ CREATE TABLE country_me
 CREATE TABLE countrylanguage_me
 (
   Language    VARCHAR(200) NOT NULL COMMENT '언어명',
-  IsOfficial  ENUM         NULL    ,
+  IsOfficial  INT          NULL    ,
   Percentage  FLOAT(4,1)   NULL    ,
   CountryCode VARCHAR(200) NOT NULL COMMENT '국가코드',
   PRIMARY KEY (CountryCode)
