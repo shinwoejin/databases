@@ -16,3 +16,11 @@ In-memory DB : memcached, Redis(REmote Dlctionary System)
 
 RDB, NoSQL : file 에 저장
 In-memory DB : 메모리에 저장
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+DISTINCT 로 중복 제거후 조회
+select문 뒤에 where 절에
+(=)(>)(<)(!=)(<>)사용
+BETWEEN	Between a certain range
+LIKE	Search for a pattern ('문자%')
+IN	To specify multiple possible values for a column	
