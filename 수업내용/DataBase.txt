@@ -46,3 +46,40 @@ MySQL LIMIT 절
 ORDER BY DATETIME ASC LIMIT 1; 상위 한줄만 출력
 
 SELECT 집합적 개념
+
+SELECT CURDATE();
+SELECT CURRENT_DATE(); : 날짜만
+SELECT CURRENT_TIME(); 
+SELECT NOW(); : 시간만
+SELECT DATE("2017-06-15");
+ = 날짜/시간 식에서 날짜 부분을 추출합니다.
+ SELECT DATE_FORMAT("2017-06-15", "%Y");
+ SELECT DATE_FORMAT("2017-06-15", "%Y-%M-%D");  
+ =  "%Y" 날짜 형식 지정 Y 년도만 출력됨
+SELECT DATE_ADD("2017-06-15", INTERVAL $$ DAY);    
+=  $$ 만큼 추가되서  2017-06-25일됨
+SELECT HOUR("2017-06-20 09:34:00");
+= HOUR 만 출력됨
+SELECT MINUTE("2017-06-20 09:34:00");
+= MINUTE 만 출력
+SELECT SECOND("2017-06-20 09:34:00.000023");
+= SECOND 만 출력
+SELECT CustomerName, CONCAT(Address, " ", PostalCode, " ", City) AS Address
+FROM Customers;
+= Adress 에 Adress, PostalCode, City 가 합쳐서 나옴
+SUBSTR(), SUBSTRING() 둘중 하나로 쓸때 통일하기
+SELECT SUBSTRING("SQL Tutorial", 5, 3) AS ExtractString;
+= 5번째부터 3개 추출
+
+SELECT OrderID, Quantity,
+(CASE WHEN Quantity > 30 THEN 'The quantity is greater than 30'
+WHEN Quantity = 30 THEN 'The quantity is 30'
+ELSE 'The quantity is under 30'
+END) AS QuantityText
+FROM OrderDetails
+ORDER BY OrderID ASC;
+
+OrderID	Quantity	QuantityText
+10248	12	The quantity is under 30
+10249	40	The quantity is greater than 30
+10255	30	The quantity is 30
