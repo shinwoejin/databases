@@ -84,3 +84,26 @@ OrderID	Quantity	QuantityText
 10249	40	The quantity is greater than 30
 10255	30	The quantity is 30
 
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID;
+
+OrderID	CustomerName	        OrderDate
+10248	Wilman Kala	            1996-07-04
+10249	Tradição Hipermercados	1996-07-05
+10250	Hanari Carnes	        1996-07-08
+
+SELECT Orders.OrderID, Shippers.ShipperName, Shippers.Phone
+FROM Orders
+INNER JOIN Shippers
+ON Orders.ShipperID = Shippers.ShipperID 
+AND Shippers.ShipperID = 2
+;
+
+Number of Records: 326
+OrderID	ShipperName	     Phone
+10250	United Package	(503) 555-3199
+10252	United Package	(503) 555-3199
+10253	United Package	(503) 555-3199
+
