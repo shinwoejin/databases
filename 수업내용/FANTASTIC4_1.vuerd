@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -202.39999999999972,
-    "zoomLevel": 1,
+    "scrollTop": -212.79999999999984,
+    "scrollLeft": -102.39999999999998,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -43,13 +43,13 @@
   "table": {
     "tables": [
       {
-        "name": "이름-설문",
+        "name": "Name/question",
         "comment": "",
         "columns": [
           {
-            "name": "이름 고유번호",
+            "name": "Unique_Name",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -62,17 +62,17 @@
               "pk": false,
               "fk": false,
               "pfk": true,
-              "widthName": 84.5703125,
+              "widthName": 84.7861328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "8bad9015-b957-41f2-bcf7-b4de5a88a7b9"
           },
           {
-            "name": "설문 고유번호",
+            "name": "Unique_ques",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -85,9 +85,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 84.5703125,
+              "widthName": 77.61328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "b6ff657d-cfa6-4474-802d-45ba9076b740"
@@ -95,23 +95,23 @@
         ],
         "ui": {
           "active": false,
-          "left": 203.2,
-          "top": 252.8,
-          "zIndex": 4,
-          "widthName": 60,
+          "left": 125.8658,
+          "top": 575.4676,
+          "zIndex": 115,
+          "widthName": 93.1650390625,
           "widthComment": 60
         },
         "visible": true,
         "id": "08122712-3e31-46d5-9d9d-8ecd009acc2a"
       },
       {
-        "name": "설문 번호부여",
+        "name": "Num_Number",
         "comment": "",
         "columns": [
           {
-            "name": "설문 고유번호",
+            "name": "Unique_Num",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -124,17 +124,17 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 84.5703125,
+              "widthName": 78.58447265625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "cda80f0b-be81-4e62-8a17-d345cab3e3f5"
           },
           {
-            "name": "설문",
+            "name": "Num",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -149,7 +149,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "cd8ef529-3df2-4a12-9f5e-b70204f00be6"
@@ -157,23 +157,23 @@
         ],
         "ui": {
           "active": false,
-          "left": 572,
-          "top": 0,
-          "zIndex": 2,
-          "widthName": 84.5703125,
+          "left": 647.5549,
+          "top": 113.778,
+          "zIndex": 118,
+          "widthName": 84.697265625,
           "widthComment": 60
         },
         "visible": true,
         "id": "f68feea2-1e3b-4594-a9d9-029b7722b0a2"
       },
       {
-        "name": "답항 번호",
+        "name": "Answer_Number",
         "comment": "",
         "columns": [
           {
-            "name": "답항번호",
+            "name": "Unique_Answer",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -186,17 +186,17 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 92.44140625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "a9bf3a35-8523-48f4-b666-79b4814c1a17"
           },
           {
-            "name": "답항",
+            "name": "Answer",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -211,7 +211,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "ab72b68a-f8e6-47c4-b7cc-420f5dd7cab7"
@@ -219,23 +219,23 @@
         ],
         "ui": {
           "active": false,
-          "left": 961.6,
-          "top": 8.8,
-          "zIndex": 3,
-          "widthName": 60,
+          "left": 1171.3782,
+          "top": 271.9137,
+          "zIndex": 111,
+          "widthName": 98.55419921875,
           "widthComment": 60
         },
         "visible": true,
         "id": "82ccad32-55ea-4802-b465-b0c624d4bfdf"
       },
       {
-        "name": "이름 번호부여",
+        "name": "Name_Number",
         "comment": "",
         "columns": [
           {
-            "name": "이름 고유번호",
+            "name": "Unique_Name",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -248,17 +248,17 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 84.5703125,
+              "widthName": 84.7861328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "54375dbc-b7d2-470e-a0c6-da38796de881"
           },
           {
-            "name": "이름",
+            "name": "Name",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -273,7 +273,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "35a68471-d1ff-4545-8b2b-235c9a681541"
@@ -281,10 +281,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 134.4,
-          "top": 0,
-          "zIndex": 1,
-          "widthName": 84.5703125,
+          "left": 129.0666,
+          "top": 236.4451,
+          "zIndex": 93,
+          "widthName": 90.89892578125,
           "widthComment": 60
         },
         "visible": true,
@@ -295,9 +295,9 @@
         "comment": "",
         "columns": [
           {
-            "name": "설문 고유번호",
+            "name": "Unique_Num",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -310,17 +310,17 @@
               "pk": false,
               "fk": false,
               "pfk": true,
-              "widthName": 84.5703125,
+              "widthName": 78.58447265625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "1a8310ff-b643-41a6-9ed6-7916c3d4d450"
           },
           {
-            "name": "답항번호",
+            "name": "Unique_Answer",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -333,9 +333,9 @@
               "pk": false,
               "fk": false,
               "pfk": true,
-              "widthName": 60,
+              "widthName": 92.44140625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "2b0f8fdc-354d-4c9e-a9f1-9d8990944002"
@@ -343,9 +343,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 701.6,
-          "top": 254.4,
-          "zIndex": 5,
+          "left": 1125.6007,
+          "top": 561.0674,
+          "zIndex": 107,
           "widthName": 60,
           "widthComment": 60
         },
@@ -353,13 +353,13 @@
         "id": "ca758a8e-9268-4209-94d2-6f9486367563"
       },
       {
-        "name": "번호취합",
+        "name": "Number_Collection",
         "comment": "",
         "columns": [
           {
-            "name": "이름 고유번호",
+            "name": "Unique_Name",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -372,17 +372,17 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 84.5703125,
+              "widthName": 84.7861328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "f4198235-9ddc-457f-b4ae-df39080e1b62"
           },
           {
-            "name": "설문 고유번호",
+            "name": "Unique_ques",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -395,17 +395,17 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 84.5703125,
+              "widthName": 77.61328125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "2ec33ddc-fb81-4933-bc20-d8966646adac"
           },
           {
-            "name": "답항번호",
+            "name": "Unique_Answer",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -418,9 +418,9 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 92.44140625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "4541d0ca-2b6b-4c0a-a33d-bbe384fa6c4c"
@@ -428,10 +428,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 316,
-          "top": 540,
-          "zIndex": 6,
-          "widthName": 60,
+          "left": 639.5553,
+          "top": 395.1112,
+          "zIndex": 105,
+          "widthName": 114.32177734375,
           "widthComment": 60
         },
         "visible": true,
@@ -454,8 +454,8 @@
           "columnIds": [
             "54375dbc-b7d2-470e-a0c6-da38796de881"
           ],
-          "x": 320.18515625,
-          "y": 110,
+          "x": 329.60615078125,
+          "y": 346.4451,
           "direction": "bottom"
         },
         "end": {
@@ -463,8 +463,8 @@
           "columnIds": [
             "8bad9015-b957-41f2-bcf7-b4de5a88a7b9"
           ],
-          "x": 388.98515625,
-          "y": 252.8,
+          "x": 326.40535078125,
+          "y": 575.4676,
           "direction": "top"
         },
         "constraintName": "fk_이름 번호부여_to_이름-설문",
@@ -480,8 +480,8 @@
           "columnIds": [
             "cda80f0b-be81-4e62-8a17-d345cab3e3f5"
           ],
-          "x": 572,
-          "y": 55,
+          "x": 647.5549,
+          "y": 168.77800000000002,
           "direction": "left"
         },
         "end": {
@@ -489,8 +489,8 @@
           "columnIds": [
             "b6ff657d-cfa6-4474-802d-45ba9076b740"
           ],
-          "x": 574.7703125,
-          "y": 307.8,
+          "x": 526.9449015625,
+          "y": 657.9676,
           "direction": "right"
         },
         "constraintName": "fk_설문 번호부여_to_이름-설문",
@@ -506,18 +506,18 @@
           "columnIds": [
             "cda80f0b-be81-4e62-8a17-d345cab3e3f5"
           ],
-          "x": 757.78515625,
-          "y": 110,
-          "direction": "bottom"
+          "x": 1042.43234140625,
+          "y": 168.77800000000002,
+          "direction": "right"
         },
         "end": {
           "tableId": "ca758a8e-9268-4209-94d2-6f9486367563",
           "columnIds": [
             "1a8310ff-b643-41a6-9ed6-7916c3d4d450"
           ],
-          "x": 887.38515625,
-          "y": 254.4,
-          "direction": "top"
+          "x": 1125.6007,
+          "y": 643.5674,
+          "direction": "left"
         },
         "constraintName": "fk_설문 번호부여_to_설문-답항",
         "visible": true,
@@ -532,8 +532,8 @@
           "columnIds": [
             "a9bf3a35-8523-48f4-b666-79b4814c1a17"
           ],
-          "x": 1135.1,
-          "y": 118.8,
+          "x": 1375.7453875,
+          "y": 381.9137,
           "direction": "bottom"
         },
         "end": {
@@ -541,9 +541,9 @@
           "columnIds": [
             "2b0f8fdc-354d-4c9e-a9f1-9d8990944002"
           ],
-          "x": 1073.1703125,
-          "y": 309.4,
-          "direction": "right"
+          "x": 1329.9678875,
+          "y": 561.0674,
+          "direction": "top"
         },
         "constraintName": "fk_답항 번호_to_설문-답항",
         "visible": true,
@@ -558,18 +558,18 @@
           "columnIds": [
             "8bad9015-b957-41f2-bcf7-b4de5a88a7b9"
           ],
-          "x": 388.98515625,
-          "y": 362.8,
-          "direction": "bottom"
+          "x": 526.9449015625,
+          "y": 602.9676,
+          "direction": "right"
         },
         "end": {
           "tableId": "d362bfa8-e007-4160-8ea0-180b2003a482",
           "columnIds": [
             "f4198235-9ddc-457f-b4ae-df39080e1b62"
           ],
-          "x": 501.78515625,
-          "y": 540,
-          "direction": "top"
+          "x": 639.5553,
+          "y": 460.3612,
+          "direction": "left"
         },
         "constraintName": "fk_이름-설문_to_",
         "visible": true,
@@ -585,8 +585,8 @@
             "1a8310ff-b643-41a6-9ed6-7916c3d4d450",
             "2b0f8fdc-354d-4c9e-a9f1-9d8990944002"
           ],
-          "x": 701.6,
-          "y": 309.4,
+          "x": 1125.6007,
+          "y": 588.5674,
           "direction": "left"
         },
         "end": {
@@ -595,8 +595,8 @@
             "2ec33ddc-fb81-4933-bc20-d8966646adac",
             "4541d0ca-2b6b-4c0a-a33d-bbe384fa6c4c"
           ],
-          "x": 687.5703125,
-          "y": 605.25,
+          "x": 1048.289675,
+          "y": 460.3612,
           "direction": "right"
         },
         "constraintName": "fk_설문-답항_to_",
