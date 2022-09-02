@@ -116,4 +116,5 @@ FROM (
 	  ON Orders.ShipperID = Shippers.ShipperID
       );
 
-datebase 를 지울때 외래키 먼저 drop 해야 삭제됨
+database 를 지울때 외래키 먼저 drop 해야 삭제됨
+database : root 권한은 remote 권한 제외
