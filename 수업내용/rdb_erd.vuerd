@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -61.59999999999995,
-    "scrollLeft": -95.19999999999997,
+    "scrollTop": -55.99999999999998,
+    "scrollLeft": -214.4,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 324,
-          "top": 170.4,
-          "zIndex": 178,
+          "left": 279.2,
+          "top": 119.2,
+          "zIndex": 226,
           "widthName": 64.20703125,
           "widthComment": 60
         },
@@ -184,14 +184,14 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
-              "fk": true,
+              "pk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -222,41 +222,80 @@
               "widthDefault": 60
             },
             "id": "17e9551a-1855-473a-b0f7-9c43ce3ee285"
-          },
-          {
-            "name": "EMP_ID",
-            "comment": "직원아이디",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 67,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "ced2234f-1c1b-48ba-97bb-4516ab261133"
           }
         ],
         "ui": {
           "active": false,
-          "left": 375.2,
-          "top": 432.8,
-          "zIndex": 184,
+          "left": 671.2,
+          "top": 528,
+          "zIndex": 227,
           "widthName": 82.970703125,
           "widthComment": 60
         },
         "visible": true,
         "id": "0ac6ef8f-a1cd-4afd-bc49-04740cd88f98"
+      },
+      {
+        "name": "COMPANY_DEPT",
+        "comment": "관계테이블",
+        "columns": [
+          {
+            "name": "COMPANY_ID",
+            "comment": "unique id",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 82.5771484375,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "4b60d14f-2964-44a0-8a48-95f729c74967"
+          },
+          {
+            "name": "DEPT_ID",
+            "comment": "unique id",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "24032042-b3f9-4137-9dd7-28cc609e2bee"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 316,
+          "top": 369.6,
+          "zIndex": 225,
+          "widthName": 100.1474609375,
+          "widthComment": 67
+        },
+        "visible": true,
+        "id": "d44b883d-d0fb-478c-aca3-bb83d5df5671"
       }
     ],
     "indexes": []
@@ -275,22 +314,48 @@
           "columnIds": [
             "c6e833b6-8448-4d3e-a3bb-2b52198f771b"
           ],
-          "x": 512.146484375,
-          "y": 341.9,
+          "x": 467.346484375,
+          "y": 290.7,
           "direction": "bottom"
         },
         "end": {
+          "tableId": "d44b883d-d0fb-478c-aca3-bb83d5df5671",
+          "columnIds": [
+            "4b60d14f-2964-44a0-8a48-95f729c74967"
+          ],
+          "x": 515.43505859375,
+          "y": 369.6,
+          "direction": "top"
+        },
+        "constraintName": "fk_company_to_company_dept",
+        "visible": true,
+        "id": "dad8648b-5a87-4527-8b3d-fb11f313e312"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
           "tableId": "0ac6ef8f-a1cd-4afd-bc49-04740cd88f98",
           "columnIds": [
             "431a29b3-d3b4-4899-9c89-da7597769a1d"
           ],
-          "x": 566.846484375,
-          "y": 432.8,
-          "direction": "top"
+          "x": 671.2,
+          "y": 583,
+          "direction": "left"
         },
-        "constraintName": "fk_company_to_department",
+        "end": {
+          "tableId": "d44b883d-d0fb-478c-aca3-bb83d5df5671",
+          "columnIds": [
+            "24032042-b3f9-4137-9dd7-28cc609e2bee"
+          ],
+          "x": 714.8701171875,
+          "y": 424.6,
+          "direction": "right"
+        },
+        "constraintName": "fk_department_to_company_dept",
         "visible": true,
-        "id": "951c013b-256a-48e9-8cde-cf5378586bca"
+        "id": "2c86aef0-6083-4080-b6ea-d6d5108ff4e2"
       }
     ]
   }
