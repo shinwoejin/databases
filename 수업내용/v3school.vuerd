@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -522.4000000000002,
-    "scrollLeft": -564.7999999999998,
+    "scrollTop": -541.5999999999998,
+    "scrollLeft": -580.7999999999998,
     "zoomLevel": 0.4,
     "show": {
       "tableComment": true,
@@ -212,7 +212,7 @@
           "active": false,
           "left": 639.9364,
           "top": 82.6598,
-          "zIndex": 46,
+          "zIndex": 1,
           "widthName": 64.27685546875,
           "widthComment": 60
         },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 405.051,
           "top": 1072.6027,
-          "zIndex": 49,
+          "zIndex": 2,
           "widthName": 64.34033203125,
           "widthComment": 60
         },
@@ -451,7 +451,7 @@
           "active": false,
           "left": 1435.2288,
           "top": 417.001,
-          "zIndex": 58,
+          "zIndex": 4,
           "widthName": 64.83544921875,
           "widthComment": 60
         },
@@ -469,29 +469,6 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 82.6025390625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "b08f103d-2263-4a7e-9f7b-dac0e006c2cf"
-          },
-          {
-            "name": "OrderID",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
               "primaryKey": true,
               "unique": false,
               "notNull": true
@@ -501,12 +478,12 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 82.6025390625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "f3bc9c8e-aa62-4cc9-9243-770dcfabc247"
+            "id": "b08f103d-2263-4a7e-9f7b-dac0e006c2cf"
           },
           {
             "name": "ProductID",
@@ -553,13 +530,36 @@
               "widthDefault": 60
             },
             "id": "583db96a-e0e8-4729-82e0-d05acebd3405"
+          },
+          {
+            "name": "OrderID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aa1c4610-1542-42ae-a245-9d6abb2eb91d"
           }
         ],
         "ui": {
           "active": false,
           "left": 1101.9687,
           "top": 919.8831,
-          "zIndex": 72,
+          "zIndex": 17,
           "widthName": 75.39794921875,
           "widthComment": 60
         },
@@ -577,14 +577,14 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
-              "fk": true,
+              "pk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -671,7 +671,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -690,7 +690,7 @@
           "active": false,
           "left": 798.6473,
           "top": 563.9744,
-          "zIndex": 71,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 60
         },
@@ -844,7 +844,7 @@
           "active": false,
           "left": 259.6782,
           "top": 657.3622,
-          "zIndex": 60,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -929,7 +929,7 @@
           "active": false,
           "left": 1177.444,
           "top": 135.8222,
-          "zIndex": 56,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1129,7 +1129,7 @@
           "active": false,
           "left": 137.9328,
           "top": 233.8751,
-          "zIndex": 62,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1146,7 +1146,7 @@
     "relationships": [
       {
         "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "a2b660b4-16ad-410f-99ba-e783f537b9f8",
@@ -1172,7 +1172,7 @@
       },
       {
         "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "72020c96-3833-4734-9219-ffd03e8cc86b",
@@ -1198,7 +1198,7 @@
       },
       {
         "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "f208958c-5c66-4ca1-bb06-ec0e2c78167a",
@@ -1302,18 +1302,9 @@
       },
       {
         "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "f9981198-64d1-4e19-8b28-8e9bfcc41f00",
-          "columnIds": [
-            "f3bc9c8e-aa62-4cc9-9243-770dcfabc247"
-          ],
-          "x": 1101.9687,
-          "y": 957.6331,
-          "direction": "left"
-        },
-        "end": {
           "tableId": "14313d01-85f9-4339-bb9d-d3ebdb8e7028",
           "columnIds": [
             "0aec4ff5-1970-4611-842f-ea6e9875de8d"
@@ -1322,9 +1313,18 @@
           "y": 735.4744,
           "direction": "bottom"
         },
-        "constraintName": "fk_orderdetails_to_orders",
+        "end": {
+          "tableId": "f9981198-64d1-4e19-8b28-8e9bfcc41f00",
+          "columnIds": [
+            "aa1c4610-1542-42ae-a245-9d6abb2eb91d"
+          ],
+          "x": 1101.9687,
+          "y": 957.6331,
+          "direction": "left"
+        },
+        "constraintName": "fk_orders_to_orderdetails",
         "visible": true,
-        "id": "73313e70-0e95-4afd-8c11-df1c24387d12"
+        "id": "8d57e427-797b-4193-89cf-7391949f978c"
       }
     ]
   }
