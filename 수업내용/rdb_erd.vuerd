@@ -166,7 +166,7 @@
           "active": false,
           "left": 279.2,
           "top": 119.2,
-          "zIndex": 226,
+          "zIndex": 10,
           "widthName": 64.20703125,
           "widthComment": 60
         },
@@ -226,9 +226,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 671.2,
-          "top": 528,
-          "zIndex": 227,
+          "left": 270.4,
+          "top": 545.6,
+          "zIndex": 9,
           "widthName": 82.970703125,
           "widthComment": 60
         },
@@ -290,7 +290,7 @@
           "active": false,
           "left": 316,
           "top": 369.6,
-          "zIndex": 225,
+          "zIndex": 1,
           "widthName": 100.1474609375,
           "widthComment": 67
         },
@@ -340,18 +340,18 @@
           "columnIds": [
             "431a29b3-d3b4-4899-9c89-da7597769a1d"
           ],
-          "x": 671.2,
-          "y": 583,
-          "direction": "left"
+          "x": 458.546484375,
+          "y": 545.6,
+          "direction": "top"
         },
         "end": {
           "tableId": "d44b883d-d0fb-478c-aca3-bb83d5df5671",
           "columnIds": [
             "24032042-b3f9-4137-9dd7-28cc609e2bee"
           ],
-          "x": 714.8701171875,
-          "y": 424.6,
-          "direction": "right"
+          "x": 515.43505859375,
+          "y": 479.6,
+          "direction": "bottom"
         },
         "constraintName": "fk_department_to_company_dept",
         "visible": true,
