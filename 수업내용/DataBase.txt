@@ -115,3 +115,5 @@ FROM (
 		ON Orders.CustomerID = Customers.CustomerID) INNER JOIN Shippers 
 	  ON Orders.ShipperID = Shippers.ShipperID
       );
+
+datebase 를 지울때 외래키 먼저 drop 해야 삭제됨
