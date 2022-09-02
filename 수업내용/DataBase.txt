@@ -118,3 +118,11 @@ FROM (
 
 database 를 지울때 외래키 먼저 drop 해야 삭제됨
 database : root 권한은 remote 권한 제외
+
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;
+
+AND Orders.OrderID IS NULL를 넣어 null인 값을 확인
