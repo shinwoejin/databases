@@ -2,14 +2,14 @@
 CREATE TABLE Answer_Number
 (
   Unique_Answer VARCHAR(200) NOT NULL,
-  Answer        VARCHAR(200) NULL    ,
+  Answer        VARCHAR(200) NOT NULL,
   PRIMARY KEY (Unique_Answer)
 );
 
 CREATE TABLE Name_Number
 (
   Unique_Name VARCHAR(200) NOT NULL,
-  Name        VARCHAR(200) NULL    ,
+  Name        VARCHAR(200) NOT NULL,
   PRIMARY KEY (Unique_Name)
 );
 
