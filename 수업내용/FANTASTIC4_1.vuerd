@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -212.79999999999984,
-    "scrollLeft": -102.39999999999998,
-    "zoomLevel": 0.8,
+    "scrollTop": -138.39999999999998,
+    "scrollLeft": -64.80000000000003,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -43,7 +43,7 @@
   "table": {
     "tables": [
       {
-        "name": "Name/question",
+        "name": "Name_Question",
         "comment": "",
         "columns": [
           {
@@ -97,8 +97,8 @@
           "active": false,
           "left": 125.8658,
           "top": 575.4676,
-          "zIndex": 115,
-          "widthName": 93.1650390625,
+          "zIndex": 123,
+          "widthName": 95.7802734375,
           "widthComment": 60
         },
         "visible": true,
@@ -291,7 +291,7 @@
         "id": "16b17e0f-5722-4c12-b0e4-c2227541e51a"
       },
       {
-        "name": "설문-답항",
+        "name": "Num_Answer",
         "comment": "",
         "columns": [
           {
@@ -345,8 +345,8 @@
           "active": false,
           "left": 1125.6007,
           "top": 561.0674,
-          "zIndex": 107,
-          "widthName": 60,
+          "zIndex": 120,
+          "widthName": 79.19384765625,
           "widthComment": 60
         },
         "visible": true,
